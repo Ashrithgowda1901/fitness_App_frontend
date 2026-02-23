@@ -97,6 +97,15 @@ const Register = () => {
         >
           Register
         </button>
+        <button
+          onClick={()=>{
+            navigate(-1)
+          }}
+          className="w-full bg-[#004080] hover:bg-[#003366]
+          text-white py-2 rounded-lg font-medium transition"
+        >
+          Go Back
+        </button>
       </div>
     </div>
   );

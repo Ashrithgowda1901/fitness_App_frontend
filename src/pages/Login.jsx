@@ -96,6 +96,16 @@ const Login = () => {
         >
           Login
         </button>
+        <button
+          type="submit"
+          onClick={()=>{
+            navigate("/register")
+          }}
+          className="w-full bg-[#004080] hover:bg-[#003366]
+          text-white py-2 rounded-lg font-medium transition"
+        >
+          New User ? Register
+        </button>
       </form>
     </div>
   );
